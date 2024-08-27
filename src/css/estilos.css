@@ -4,12 +4,6 @@ body {
 	margin: 0 auto;
 }
 
-main{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .carrossel {
 	position: fixed;
 	top: 0;
@@ -28,10 +22,11 @@ main{
 
 .conteudo {
 	display: flex;
-	/*flex-direction: column;*/
-	justify-content: center;
+	/* flex-direction: column; */
+	justify-content: space-between;
 	align-items: center;
-	min-height: 100vh;
+	height: 100vh;
+	
 }
 
 .informacoes h1 {
@@ -49,7 +44,7 @@ main{
 }
 
 .informacoes .descricao {
-	width: 50%;
+	width: 49%;
 	font-size: 25px;
 	color: #ffffff;
 	line-height: 35px;
